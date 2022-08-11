@@ -32,9 +32,11 @@
                     <a href="#" class="btn btn-outline-primary">
                         <i class="bi bi-pen"></i> Editar
                     </a>
-                    <a href="#" class="btn btn-outline-primary">
-                        <i class="bi bi-list-columns"></i> Listar
-                    </a>
+                    <form action="SvAutos">
+                        <button type="submit" class="btn btn-outline-primary">
+                            <i class="bi bi-list-columns"></i> Listar
+                        </button>
+                    </form>
                     <a href="#" class="btn btn-outline-primary">
                         <i class="bi bi-trash"></i> Eliminar
                     </a>
@@ -49,7 +51,7 @@
                         </div>
                         <div class="col-4 mb-3">
                             <label for="marca" class="form-label">Marca</label>
-                            <input type="text" class="form-control" id="marca" name="modelo">
+                            <input type="text" class="form-control" id="marca" name="marca">
                         </div>
                         <div class="col-4 mb-3">
                             <label for="modelo" class="form-label">Modelo</label>

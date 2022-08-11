@@ -32,9 +32,11 @@
                     <a href="#" class="btn btn-outline-primary">
                         <i class="bi bi-pen"></i> Editar
                     </a>
-                    <a href="#" class="btn btn-outline-primary">
-                        <i class="bi bi-list-columns"></i> Listar
-                    </a>
+                    <form action="SvAutos">
+                        <button type="submit" class="btn btn-outline-primary">
+                            <i class="bi bi-list-columns"></i> Listar
+                        </button>
+                    </form>
                     <a href="#" class="btn btn-outline-primary">
                         <i class="bi bi-trash"></i> Eliminar
                     </a>
